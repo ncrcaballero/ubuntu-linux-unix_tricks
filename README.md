@@ -39,3 +39,7 @@ fi
 
 4. reboot and done.
  - if u want to start with the greeter and choose the account, add in lightdm.conf `greeter-show-manual-login=true` 
+
+
+#### More:
+[Error 127 when installing package with synaptic or apt-get](https://github.com/ncrcaballero/ubuntu-linux-unix_tricks/blob/master/error-127-dpkg-synaptic.txt)
