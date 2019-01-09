@@ -1,0 +1,12 @@
+script pre-removal  error 127
+ 
+> en la terminal:
+1- Nos situamos en el directorio /var/lib/dpkg/info
+ cd /var/lib/dpkg/info/
+2- En esta carpeta borramos todos los archivos que hacen referencia a “nombre-del-paquete”.
+ rm nombre_del_paquete*
+3- Se ejecuta de nuevo el comando para depurar o desinstalar el paquete:
+ dpkg -P nombre_del_paquete
+
+Fuente: https://yodfigueroa.blogspot.com/2017/08/error-127-con-dpkg-o-synaptic.html
+https://usuariodebian.blogspot.com/2009/08/error-127-en-synaptic.html
